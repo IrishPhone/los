@@ -1,5 +1,9 @@
-body {
+html{
+    font-size: 15px;
+}
 
+body {
+    font-size: 15px;
 }
 
 p{
@@ -9,6 +13,10 @@ p{
 section{
     padding-top: 3rem;
     padding-bottom: 2rem;
+}
+
+a{
+    /*color: #84E6F8 !important;*/
 }
 /*
 .keyvisual {
@@ -73,22 +81,23 @@ section{
 }
 
 #prods{
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
     font-size: 1.25rem;
 }
 
 .prods{
     padding-bottom: 2rem;
+    max-width: 900px;
 }
 
 #certs{
-    background-color: #333333;
+    background-color: #031D25;
     color: #eee;
     padding-bottom: 4rem;
 }
 
 #contacts{
-    background-color: #111111;
+    background-color: #000000;
     color: #eee;
     padding-bottom: 4rem;   
 }
@@ -99,4 +108,15 @@ section{
 
 dt {
     text-align: right;
+}
+
+@media (max-width: 576px) {
+  
+  body{
+    font-size: 30px;
+  }
+
+  dt {
+    text-align: left;
+  }
 }
