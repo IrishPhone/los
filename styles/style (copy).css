@@ -1,0 +1,180 @@
+html{
+    font-size: 15px;
+}
+
+body {
+    font-size: 15px;
+}
+
+p{
+
+}
+
+section{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+.navbar-dark {
+    background-color: black;
+}
+
+/*
+.keyvisual {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+*/
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+
+#lasers{overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.keyvisual-title{
+    
+    z-index: 2;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.keyvisual {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyvisual-title{
+    display: block;
+    color: white;
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.about{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.normal_text {
+    font-size: 1rem;
+    padding: 1rem 2rem 0 0;
+}
+
+.leading_text {
+    font-size: 1.25rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.main_section {
+    background-color: #020B27;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.pdf{
+    
+}
+
+.h1{
+    /*padding-top: 3rem;*/
+    padding-bottom: 2rem;
+}
+
+#prods{
+    /*background-color: #eeeeee;*/
+    font-size: 1.25rem;
+}
+
+.prods{
+    padding-bottom: 2rem;
+    max-width: 900px;
+}
+
+#certs{
+    background-color: #020B27;
+    color: #eee;
+    padding-bottom: 4rem;
+}
+
+#contacts{
+    background-color: #000000;
+    color: #eee;
+    padding-bottom: 4rem;   
+}
+
+.h4{
+    padding: 3rem 0 2rem 0;
+}
+
+dt {
+    text-align: right;
+}
+
+@media (max-width: 576px) {
+  
+    body{
+        font-size: 20px;
+    }
+
+    .keyvisual-title {
+        font-weight: 600;
+        font-size:10vw;
+    }
+
+    dt {
+        text-align: left;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+}
