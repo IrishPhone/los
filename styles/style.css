@@ -157,7 +157,12 @@ header .container {
     padding: 3rem 0 2rem 0;
 }
 
-dt {
+.specs {
+  font-size: 1.1rem;
+  border-bottom: solid 1px #ccc;
+}
+
+.AccountDetails {
     text-align: right;
 }
 
@@ -172,7 +177,7 @@ dt {
         font-size:10vw;
     }
 
-    dt {
+    .AccountDetails {
         text-align: left;
     }
 
