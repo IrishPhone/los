@@ -34,7 +34,7 @@ section{
 header {
   position: relative;
   background-color: black;
-  height: 100vh;
+  height: 80vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -132,13 +132,17 @@ header .container {
 }
 
 #prods{
-    /*background-color: #eeeeee;*/
+    /*background-color: #020B27;*/
     font-size: 1.25rem;
 }
 
 .prods{
     padding-bottom: 2rem;
     max-width: 900px;
+}
+
+.acd{
+    color: red !important;
 }
 
 #certs{
